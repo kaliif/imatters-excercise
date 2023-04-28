@@ -9,7 +9,8 @@ A quick explanation for choices that may seem like an overkill for such a simple
 ## Running
 Launch container with:
 
-```sudo docker-compose up
+```
+sudo docker-compose up
 ```
 
 
