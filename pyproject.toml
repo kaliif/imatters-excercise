@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "imatters-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Kalev Takkis <kalev.takkis@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^3.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
+pylint = "^2.17.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
